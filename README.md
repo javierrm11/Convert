@@ -25,7 +25,7 @@ Puedes acceder al convertidor de imágenes aquí: [Convertidor de Imágenes](htt
 2. Haz clic en "Seleccionar archivo" y elige la imagen que deseas convertir.
 3. Selecciona el formato al que deseas convertir la imagen en el menú desplegable.
 4. Haz clic en "Convertir" y espera a que se complete la conversión.
-5. Una vez convertida, la imagen aparecerá en la página y podrás descargarla haciendo clic en "Descargar Imagen".
+5. Una vez convertida, la imagen podrás descargarla haciendo clic en "Descargar Imagen".
 
 ¡Disfruta convirtiendo tus imágenes con nuestro convertidor!
 
