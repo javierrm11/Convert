@@ -29,6 +29,4 @@ Puedes acceder al convertidor de imágenes aquí: [Convertidor de Imágenes](htt
 
 ¡Disfruta convirtiendo tus imágenes con nuestro convertidor!
 
-## Captura de Pantalla
 
-![Convertidor de Imágenes](screenshot.png)
