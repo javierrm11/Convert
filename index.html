@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covertidor de Imagenes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gif.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://kit.fontawesome.com/5952267027.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1 class="titulo-h1 titulo-a">CONVERTIR</h1>
+            <h1 class="titulo-h1 titulo-b">IMAGENES</h1>
+        </div>
+        <nav class="redes">
+            <a href="https://github.com/javierrm11" class="icon"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://www.linkedin.com/in/javier-ruiz-molero-02b402243/" class="icon"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="archivos">
+                <div class="archivo-main">
+                    <h3 class="titulo-h3">Explora tus archivos</h3>
+                    <label for="archivo" class="input-file-label">
+                        <span class="boton">Seleccionar archivo</span>
+                        <input type="file" id="archivo" class="archivo" name="archivo" accept="image/*">
+                    </label>
+                </div>
+                <div class="convertir">
+                    <h3 class="titulo-h3">Convertir a</h3>
+                    <select class="tipos" name="tipos" required>
+                        <option value="png">PNG</option>
+                        <option value="jpg">JPG</option>
+                        <option value="webp">WEBP</option>
+                        <option value="pdf">PDF</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <div class="hacer-div">
+            <button class="hacer" onclick="convertirImagen()">CONVERTIR</button>
+        </div>
+        <div class="descargar-div">
+            <a id="descargar" href="#" download="imagen_convertida">Descargar Imagen</a>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
